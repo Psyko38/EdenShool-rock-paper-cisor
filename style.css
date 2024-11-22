@@ -1,0 +1,126 @@
+@import url(https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+.RULES {
+	display: flex;
+	justify-content: center;
+}
+
+body {
+	height: 91.7817vh;
+	background-color: #131537;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Barlow Semi Condensed;
+}
+
+.page {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	background: radial-gradient(
+		134.34% 134.34% at 50% 0%,
+		#1f3757 0%,
+		#131537 100%
+	);
+}
+
+.GameInfo {
+	border: 3px solid #ffffff4a;
+	border-radius: 3px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+}
+
+.Ico > h2 {
+	color: white;
+}
+
+.score {
+	background: linear-gradient(0deg, #f3f3f3 0%, #ffffff 100%);
+	box-shadow: 0px 3px 3px 0px #00000032;
+	border-radius: 4px;
+	width: 80px;
+	height: 72px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.score > .name {
+	color: #2a45c2;
+}
+
+.score > #Score {
+	color: #565468;
+	font-size: 3rem;
+	font-weight: bolder;
+}
+
+.gamme > .down > button,
+.gamme > .hup > button {
+	background-color: #ffffff00;
+	border: #ffffff00;
+}
+
+.game-flex {
+	display: flex;
+	justify-content: center;
+	background-image: url(Asset/Ico/Triangles.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.hup {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	position: relative;
+}
+
+.gamme > .down {
+	display: flex;
+	justify-content: center;
+}
+
+.RULES > button {
+	background-color: #00000000;
+	color: white;
+	padding: 15px 25px 15px 25px;
+	border: white 1px solid;
+	border-radius: 8px;
+}
+
+.gamme {
+	width: 300px;
+}
+
+.hand {
+	background: white;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Paper > .hand {
+	border: #4664f4 15px solid;
+}
+
+.Scissors > .hand {
+	border: #eb9f0e 15px solid;
+}
+
+.Stone > .hand {
+	border: #db2e4d 15px solid;
+}
